@@ -15,7 +15,7 @@
   "reference_name",
   "assigned_to",
   "status",
-  "amended_from"
+  "posting_date"
  ],
  "fields": [
   {
@@ -71,21 +71,16 @@
    "label": "Attach Document"
   },
   {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Compliance Task",
-   "print_hide": 1,
-   "read_only": 1,
-   "search_index": 1
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2026-01-19 13:24:37.722423",
+ "modified": "2026-01-19 13:29:31.178542",
  "modified_by": "Administrator",
  "module": "Quantbit Factory Compliance",
  "name": "Compliance Task",
