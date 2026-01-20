@@ -2,7 +2,7 @@ app_name = "quantbit_factory_compliance"
 app_title = "Quantbit Factory Compliance"
 app_publisher = "Quantbit Technologies"
 app_description = "Factory Compliance System"
-app_email = "asmita.sutar@erpdata.in"
+app_email = "contact@erpdata.in"
 app_license = "mit"
 
 
