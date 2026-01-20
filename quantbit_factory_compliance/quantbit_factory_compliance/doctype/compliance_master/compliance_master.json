@@ -42,7 +42,7 @@
    "fieldname": "compliance_category",
    "fieldtype": "Select",
    "label": "Compliance Category",
-   "options": "Statutory\nInternal\nSafety\nEnvironmental\nFinancial"
+   "options": "Select\nStatutory\nInternal\nSafety\nEnvironmental\nFinancial"
   },
   {
    "fieldname": "column_break_jutp",
@@ -68,7 +68,7 @@
    "fieldname": "frequency",
    "fieldtype": "Select",
    "label": "Frequency",
-   "options": "One-time\nMonthly\nQuarterly\nHalf-Yearly\nAnnual"
+   "options": "Select\nOne-time\nMonthly\nQuarterly\nHalf-Yearly\nAnnual"
   },
   {
    "description": "PCB, Labour Dept, PESO",
@@ -114,7 +114,7 @@
    "fieldname": "risk_level",
    "fieldtype": "Select",
    "label": "Risk Level",
-   "options": "Low\nMedium\nHigh"
+   "options": "Select\nLow\nMedium\nHigh"
   },
   {
    "fieldname": "compliance_mandatory_document",
@@ -126,7 +126,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-01-16 11:12:52.841477",
+ "modified": "2026-01-19 10:15:16.166695",
  "modified_by": "Administrator",
  "module": "Quantbit Factory Compliance",
  "name": "Compliance Master",

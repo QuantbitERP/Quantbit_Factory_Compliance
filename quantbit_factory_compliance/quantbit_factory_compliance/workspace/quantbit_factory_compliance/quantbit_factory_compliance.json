@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"pDR4IO17uX\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Quantbit Factory Compliance</span>\",\"col\":12}},{\"id\":\"oQF_PZI4rj\",\"type\":\"card\",\"data\":{\"card_name\":\"Masters \",\"col\":4}},{\"id\":\"kzJ9y_DtQl\",\"type\":\"card\",\"data\":{\"card_name\":\"Transaction\",\"col\":4}}]",
+ "content": "[{\"id\":\"pDR4IO17uX\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Quantbit Factory Compliance</span>\",\"col\":12}},{\"id\":\"oQF_PZI4rj\",\"type\":\"card\",\"data\":{\"card_name\":\"Masters \",\"col\":4}},{\"id\":\"kzJ9y_DtQl\",\"type\":\"card\",\"data\":{\"card_name\":\"Transaction\",\"col\":4}},{\"id\":\"9InFtSmo7J\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"IegW0MB3EF\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports</b></span>\",\"col\":12}},{\"id\":\"OLVKnuE0Dy\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"o2d19QYq7j\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Dashboards</b></span>\",\"col\":12}},{\"id\":\"nl5Bde75F_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Licenses Dashboard\",\"col\":3}}]",
  "creation": "2026-01-15 15:03:30.790367",
  "custom_blocks": [],
  "docstatus": 0,
@@ -92,7 +92,7 @@
    "type": "Link"
   }
  ],
- "modified": "2026-01-16 12:50:23.285789",
+ "modified": "2026-01-20 11:29:17.284207",
  "modified_by": "Administrator",
  "module": "Quantbit Factory Compliance",
  "name": "Quantbit Factory Compliance",
@@ -103,6 +103,14 @@
  "quick_lists": [],
  "roles": [],
  "sequence_id": 29.0,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Licenses Dashboard",
+   "link_to": "License Dashboard",
+   "type": "Dashboard"
+  }
+ ],
  "title": "Quantbit Factory Compliance"
 }

@@ -17,8 +17,7 @@
   "column_break_nnbx",
   "renewal_required",
   "section_break_nuxg",
-  "remarks",
-  "amended_from"
+  "remarks"
  ],
  "fields": [
   {
@@ -79,16 +78,6 @@
    "label": "Remarks"
   },
   {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "License",
-   "print_hide": 1,
-   "read_only": 1,
-   "search_index": 1
-  },
-  {
    "fieldname": "license_no",
    "fieldtype": "Data",
    "label": "License No."
@@ -97,7 +86,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-01-16 12:47:30.719903",
+ "modified": "2026-01-16 16:31:06.213802",
  "modified_by": "Administrator",
  "module": "Quantbit Factory Compliance",
  "name": "License",

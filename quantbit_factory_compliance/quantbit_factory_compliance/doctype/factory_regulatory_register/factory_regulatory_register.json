@@ -53,7 +53,7 @@
    "fieldname": "category",
    "fieldtype": "Select",
    "label": "Category",
-   "options": "Compliance\nLicense",
+   "options": "Select\nCompliance\nLicense",
    "reqd": 1
   },
   {
@@ -107,7 +107,7 @@
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "License Status",
-   "options": "Active\nExpired\nUnder\nRenewal"
+   "options": "Select\nActive\nExpired\nUnder Renewal"
   },
   {
    "fieldname": "issued_on",
@@ -124,16 +124,6 @@
    "fieldname": "document",
    "fieldtype": "Attach",
    "label": "Document"
-  },
-  {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Factory Regulatory Register",
-   "print_hide": 1,
-   "read_only": 1,
-   "search_index": 1
   },
   {
    "depends_on": "eval:doc.category==\"Compliance\"",
@@ -165,7 +155,7 @@
    "fieldname": "compliance_status",
    "fieldtype": "Select",
    "label": "Compliance Status",
-   "options": "Pending\nSubmitted\nApproved\nOverdue"
+   "options": "Select\nPending\nSubmitted\nApproved\nOverdue"
   },
   {
    "fieldname": "referance_no",
@@ -196,7 +186,7 @@
    "fieldname": "frequency",
    "fieldtype": "Select",
    "label": "Frequency",
-   "options": "One-time\nMonthly\nQuarterly\nHalf-Yearly\nAnnualOne-time\nMonthly\nQuarterly\nHalf-Yearly\nAnnual",
+   "options": "Select\nOne-time\nMonthly\nQuarterly\nHalf-Yearly\nAnnualOne-time\nMonthly\nQuarterly\nHalf-Yearly\nAnnual",
    "read_only": 1
   },
   {
@@ -205,13 +195,23 @@
    "fieldtype": "Int",
    "label": "Grace Days",
    "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Factory Regulatory Register",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2026-01-16 15:01:16.679018",
+ "modified": "2026-01-19 12:40:53.818878",
  "modified_by": "Administrator",
  "module": "Quantbit Factory Compliance",
  "name": "Factory Regulatory Register",
