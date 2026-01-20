@@ -1,0 +1,46 @@
+{
+ "cards": [
+  {
+   "card": "Completed This Month"
+  },
+  {
+   "card": "Overdue Compliances"
+  },
+  {
+   "card": "Due in Next 30 Days"
+  },
+  {
+   "card": "High Risk Compliance"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Compliance Status",
+   "width": "Half"
+  },
+  {
+   "chart": "Compliance by Authority & Status",
+   "width": "Half"
+  },
+  {
+   "chart": "Risk Level",
+   "width": "Half"
+  },
+  {
+   "chart": "Compliance Status by Factory",
+   "width": "Half"
+  }
+ ],
+ "creation": "2026-01-19 13:11:33.873954",
+ "dashboard_name": "Compliance Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2026-01-20 14:30:20.140240",
+ "modified_by": "Administrator",
+ "module": "Quantbit Factory Compliance",
+ "name": "Compliance Dashboard",
+ "owner": "Administrator"
+}
