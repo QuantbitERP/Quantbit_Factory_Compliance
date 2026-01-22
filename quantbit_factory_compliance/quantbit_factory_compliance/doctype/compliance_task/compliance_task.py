@@ -12,7 +12,6 @@ from frappe.utils import (
 )
 
 
-
 class ComplianceTask(Document):
 	def before_submit(self):
 		if not self.document:

@@ -202,6 +202,7 @@ scheduler_events = {
         "*/1 * * * *": [ 
             "quantbit_factory_compliance.quantbit_factory_compliance.schedulers.create_compliance_task",
             "quantbit_factory_compliance.quantbit_factory_compliance.schedulers.create_license_task",
+            
             # "quantbit_factory_compliance.quantbit_factory_compliance.schedulers.create_license_task",
             # "quantbit_factory_compliance.quantbit_factory_compliance.schedulers.create_license_frr",
             # "quantbit_factory_compliance.quantbit_factory_compliance.schedulers.expire_license_frr",
@@ -212,6 +213,15 @@ scheduler_events = {
     }
 }
 
+
+doc_events = {
+    "Compliance Master": {
+        "on_update": "quantbit_factory_compliance.quantbit_factory_compliance.doctype.compliance_master.compliance_master.on_update"
+    },
+    "License Master": {
+        "on_update": "quantbit_factory_compliance.quantbit_factory_compliance.doctype.license_master.license_master.on_update"
+    }
+}
 
 # scheduler_events = {
 # 	"all": [
