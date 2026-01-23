@@ -243,10 +243,9 @@ def send_factory_regulatory_notifications():
             subject=f"{rec.category} Alert",
             message=message
         )
-
         user_email = frappe.db.get_value("User", rec.assigned_owner, "email")
-
-        if user_email:
+        check_outgoing_email = frappe.get_value("Email Account", {"enable_outgoing":1}, "name")
+        if user_email and check_outgoing_email:
             send_email_notification(
                 recipients=[user_email],
                 subject=f"{rec.category} Alert",
@@ -265,6 +264,7 @@ def send_system_notification(user, subject, message):
 
 
 def send_email_notification(recipients, subject, message):
+    
     frappe.sendmail(
         recipients=recipients,
         subject=subject,
